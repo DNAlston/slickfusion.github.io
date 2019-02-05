@@ -1,0 +1,363 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.topbar {
+  background-color: #000;
+}
+
+.topbar .nav-link {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.topbar .nav-link:hover {
+  color: #ffeb3b;
+}
+.logo {
+  padding: 50px;
+  text-align: center;
+}
+.menu {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.menu .nav-link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+.dropdown-menu {
+  background-color: #000;
+  padding: 5px 15px 25px;
+}
+.dropdown-item {
+  color: #fff;
+  padding: 10px 5px;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent;
+  color: #ffff00;
+  border-color: #ffff00;
+}
+
+/*Slider Style*/
+.slider-wrap {
+  padding: 40px 0;
+}
+.main-slider-item {
+  position: relative;
+}
+.main-slider-item-caption {
+  position: absolute;
+  bottom: 0;
+  padding: 25px;
+  text-align: center;
+}
+.main-slider-item-caption a:hover:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ffeb3b60;
+}
+.badge-light {
+  background-color: #ffeb3b;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.main-slider-item-caption h4 {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 0;
+}
+.main-slider-item-caption .colorwhite {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.slick-arrow {
+  position: absolute;
+  font-size: 48px;
+  top: 40%;
+  z-index: 99;
+  padding: 15px;
+  color: #fff;
+  background-color: #00000080;
+  -webkit-transition: 300ms;
+  opacity: 0;
+  cursor: pointer;
+}
+.main-slider:hover .fa-angle-left.slick-arrow {
+  left: 0;
+  opacity: 1;
+}
+.main-slider:hover .fa-angle-right.slick-arrow {
+  right: 0;
+  opacity: 1;
+}
+.fa-angle-left.slick-arrow {
+  left: 5%;
+}
+.fa-angle-right.slick-arrow {
+  right: 5%;
+}
+/* article style */
+.article-wrap {
+  padding: 40px 0;
+  text-align: center;
+}
+.article-heading {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.article-heading h1 {
+  padding: 0 25px;
+  display: inline-block;
+  background-color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.article-heading hr {
+  margin-top: -30px;
+  border: none;
+  height: 1px;
+  background-color: #000;
+}
+.article-wrap h4 {
+  font-size: 18px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.article-wrap p {
+  font-size: 16px;
+  padding: 15px 0 0;
+}
+.colorblack {
+  color: #000;
+  margin: 0 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.article-wrap .btn-dark {
+  border-radius: 0;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+/*Footer Style*/
+.footer {
+  padding: 60px 0 0;
+  margin-top: 60px;
+  background-color: #000;
+  text-align: center;
+}
+.footer .footer-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffeb3b;
+  margin-bottom: 25px;
+}
+.footer h4 {
+  text-align: left;
+  font-size: 16px;
+  color: #ffffffb8;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+.footer .colorblack {
+  color: #ffffffb8;
+  -ms-wrap-margin: 0 5px 0 0;
+}
+.footer .post-meta {
+  margin-top: 15px;
+}
+.footer .footer-link a {
+  font-family: "Open sans", sans-serif;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ffffff50;
+  border-radius: 4px;
+  margin: 5px 10px 5px 0;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer-link a:hover {
+  background-color: #ffeb3b;
+  color: #000;
+}
+.footer .copyright {
+  padding: 70px 0 5px;
+  color: #ffffff90;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/*Product Style*/
+.product-area {
+  width: 100%;
+  display: inline-block;
+  padding: 25px 0;
+}
+
+.product-area h3 {
+  font-size: 50px;
+  font-family: cursive;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d2d2d2;
+  font-weight: 600;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.product-area .col-3 {
+  width: 24%;
+  float: left;
+  display: inline-block;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 0.5% 35px;
+}
+.product-area a {
+  font-size: 14px;
+  columns: #333;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+.product-area .caption {
+  padding: 10px 0;
+}
+.product-area a big {
+  font-weight: 600;
+}
+.product-area a h4 {
+  font-size: 15px;
+  padding: 8px 0;
+  font-weight: 600;
+  line-height: 22px;
+  color: #737373;
+}
+
+/*Product Price Button Style*/
+.product-area q .price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffe4b3;
+  border-bottom: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/*Product View Button*/
+.productViewBtn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  visibility: hidden;
+  background-color: #ffa800;
+  border: none;
+  width: 100%;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.product-area a:hover .productViewBtn {
+  visibility: visible;
+}
+
+/*Contact Page Style*/
+
+/* Style inputs */
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 1px;
+
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 90px;
+}
